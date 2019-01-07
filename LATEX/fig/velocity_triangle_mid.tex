@@ -1,0 +1,83 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.85000,0.32500,0.09800}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=4.521in,
+height=3.566in,
+at={(0.758in,0.481in)},
+scale only axis,
+x dir=reverse,
+xmin=-419.28667603125,
+xmax=452.71584854725,
+ymin=-272.393139415456,
+ymax=415.363690453716,
+axis background/.style={fill=white},
+axis x line*=bottom,
+axis y line*=left
+]
+\addplot [color=black, dashed, forget plot]
+  table[row sep=crcr]{%
+-27.5883542688517	142.97055103826\\
+452.71584854725	142.97055103826\\
+};
+\addplot [color=black, dashed, forget plot]
+  table[row sep=crcr]{%
+-27.5883542688517	0\\
+452.71584854725	0\\
+};
+\addplot [color=black, dashed, forget plot]
+  table[row sep=crcr]{%
+0	-71.4852755191298\\
+0	214.455826557389\\
+};
+\node[right, align=left]
+at (axis cs:150.905,71.485) {$\leftarrow\text{ v}_\text{1}$};
+\node[right, align=left]
+at (axis cs:-9.196,71.485) {$\leftarrow\text{ w}_\text{1}$};
+\node[right, align=left]
+at (axis cs:141.709,0) {$\uparrow\text{ u}$};
+\addplot [color=mycolor1, line width=2.5pt, forget plot]
+  table[row sep=crcr]{%
+0	142.97055103826\\
+301.810565698167	0\\
+-18.3922361792345	0\\
+0	142.97055103826\\
+};
+\addplot [color=black, dashed, forget plot]
+  table[row sep=crcr]{%
+-419.28667603125	142.97055103826\\
+61.0175267848522	142.97055103826\\
+};
+\addplot [color=black, dashed, forget plot]
+  table[row sep=crcr]{%
+-419.28667603125	0\\
+61.0175267848522	0\\
+};
+\addplot [color=black, dashed, forget plot]
+  table[row sep=crcr]{%
+0	-71.4852755191298\\
+0	214.455826557389\\
+};
+\node[right, align=left]
+at (axis cs:20.339,71.485) {$\leftarrow\text{ v}_\text{2}$};
+\node[right, align=left]
+at (axis cs:-139.762,71.485) {$\leftarrow\text{ w}_\text{2}$};
+\node[right, align=left]
+at (axis cs:-119.423,0) {$\uparrow\text{ u}$};
+\addplot [color=mycolor2, line width=1.5pt, forget plot]
+  table[row sep=crcr]{%
+0	142.97055103826\\
+40.6783511899015	0\\
+-279.5244506875	0\\
+0	142.97055103826\\
+};
+\end{axis}
+\end{tikzpicture}%

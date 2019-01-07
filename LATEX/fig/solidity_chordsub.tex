@@ -1,0 +1,190 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.92900,0.69400,0.12500}%
+\definecolor{mycolor3}{rgb}{0.46600,0.67400,0.18800}%
+\definecolor{mycolor4}{rgb}{0.63500,0.07800,0.18400}%
+\definecolor{mycolor5}{rgb}{0.85000,0.32500,0.09800}%
+\definecolor{mycolor6}{rgb}{0.49400,0.18400,0.55600}%
+\definecolor{mycolor7}{rgb}{0.30100,0.74500,0.93300}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+legend pos=south east,
+width=7cm,
+height=8cm,
+at={(0.758in,0.481in)},
+scale only axis,
+xmin=1,
+xmax=1.45,
+xlabel style={font=\color{white!15!black}},
+xlabel={solidity},
+ymin=0.83,
+ymax=0.96,
+ytick={ 0.7, 0.71, 0.72, 0.73, 0.74, 0.75, 0.76, 0.77, 0.78, 0.79,  0.8, 0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89,  0.9, 0.91, 0.92, 0.93, 0.94, 0.95, 0.96, 0.97, 0.98, 0.99,    1},
+ylabel style={font=\color{white!15!black}},
+ylabel={etaTT},
+axis background/.style={fill=white},
+xmajorgrids,
+ymajorgrids,
+legend style={legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot [color=mycolor1, line width=1.5pt]
+  table[row sep=crcr]{%
+1	0.944616786303683\\
+1.04444444444444	0.945827780838647\\
+1.08888888888889	0.946661127609103\\
+1.13333333333333	0.947177717082917\\
+1.17777777777778	0.947458287413644\\
+1.22222222222222	0.947532803967264\\
+1.26666666666667	0.947452050578894\\
+1.31111111111111	0.947237310846726\\
+1.35555555555556	0.946922926365385\\
+1.4	0.94651641646881\\
+};
+\addlegendentry{$c / b\text{ = 0.25}$}
+
+\addplot [color=mycolor1, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+1.22222222222222	0.947532803967264\\
+};
+\addplot [color=mycolor2, line width=1.5pt]
+  table[row sep=crcr]{%
+1	0.929855781268361\\
+1.04444444444444	0.930846165480238\\
+1.08888888888889	0.931558014547036\\
+1.13333333333333	0.931975788919614\\
+1.17777777777778	0.932205534514562\\
+1.22222222222222	0.932268563294833\\
+1.26666666666667	0.932195064437647\\
+1.31111111111111	0.932013000722121\\
+1.35555555555556	0.931751844680596\\
+1.4	0.931401769548756\\
+};
+\addlegendentry{$c / b\text{ = 0.5}$}
+
+\addplot [color=mycolor2, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor2}, forget plot]
+  table[row sep=crcr]{%
+1.22222222222222	0.932268563294833\\
+};
+\addplot [color=mycolor3, line width=1.5pt]
+  table[row sep=crcr]{%
+1	0.915661103640337\\
+1.04444444444444	0.916474917113545\\
+1.08888888888889	0.917081886700376\\
+1.13333333333333	0.917452209590816\\
+1.17777777777778	0.917672061535013\\
+1.22222222222222	0.91771137374228\\
+1.26666666666667	0.91764353223699\\
+1.31111111111111	0.917482537443013\\
+1.35555555555556	0.917252471578997\\
+1.4	0.916909358418076\\
+};
+\addlegendentry{$c / b\text{ = 0.75}$}
+
+\addplot [color=mycolor3, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor3}, forget plot]
+  table[row sep=crcr]{%
+1.22222222222222	0.91771137374228\\
+};
+\addplot [color=mycolor4, line width=1.5pt]
+  table[row sep=crcr]{%
+1	0.901959178747203\\
+1.04444444444444	0.9027847777278\\
+1.08888888888889	0.903321239681939\\
+1.13333333333333	0.903633898091645\\
+1.17777777777778	0.903823087807464\\
+1.22222222222222	0.903862000062705\\
+1.26666666666667	0.903787946746223\\
+1.31111111111111	0.903628335100799\\
+1.35555555555556	0.903398115696644\\
+1.4	0.903134981353841\\
+};
+\addlegendentry{$c / b\text{ = 1}$}
+
+\addplot [color=mycolor4, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor4}, forget plot]
+  table[row sep=crcr]{%
+1.22222222222222	0.903862000062705\\
+};
+\addplot [color=mycolor5, line width=1.5pt]
+  table[row sep=crcr]{%
+1	0.888922687207593\\
+1.04444444444444	0.889598186080136\\
+1.08888888888889	0.890123920800264\\
+1.13333333333333	0.890476850593988\\
+1.17777777777778	0.890614744690954\\
+1.22222222222222	0.890643553712755\\
+1.26666666666667	0.890575953829197\\
+1.31111111111111	0.89043414466692\\
+1.35555555555556	0.890211216936875\\
+1.4	0.889928949678522\\
+};
+\addlegendentry{$c / b\text{ = 1.25}$}
+
+\addplot [color=mycolor5, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor5}, forget plot]
+  table[row sep=crcr]{%
+1.22222222222222	0.890643553712755\\
+};
+\addplot [color=mycolor6, line width=1.5pt]
+  table[row sep=crcr]{%
+1	0.876396525383344\\
+1.04444444444444	0.87700535186933\\
+1.08888888888889	0.877545622901872\\
+1.13333333333333	0.877840334307845\\
+1.17777777777778	0.877964084769986\\
+1.22222222222222	0.878003047262475\\
+1.26666666666667	0.877942897132061\\
+1.31111111111111	0.877797544237908\\
+1.35555555555556	0.877621039139648\\
+1.4	0.877326591980588\\
+};
+\addlegendentry{$c / b\text{ = 1.5}$}
+
+\addplot [color=mycolor6, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor6}, forget plot]
+  table[row sep=crcr]{%
+1.22222222222222	0.878003047262475\\
+};
+\addplot [color=mycolor7, line width=1.5pt]
+  table[row sep=crcr]{%
+1	0.864421312984247\\
+1.04444444444444	0.8649825424018\\
+1.08888888888889	0.865469363360871\\
+1.13333333333333	0.86573552259002\\
+1.17777777777778	0.865855299852351\\
+1.22222222222222	0.865878306015125\\
+1.26666666666667	0.86580292705211\\
+1.31111111111111	0.865670693185824\\
+1.35555555555556	0.865424858926698\\
+1.4	0.865207699887944\\
+};
+\addlegendentry{$c / b\text{ = 1.75}$}
+
+\addplot [color=mycolor7, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor7}, forget plot]
+  table[row sep=crcr]{%
+1.22222222222222	0.865878306015125\\
+};
+\addplot [color=mycolor1, line width=1.5pt]
+  table[row sep=crcr]{%
+1	0.852770458967567\\
+1.04444444444444	0.853382422654558\\
+1.08888888888889	0.853811821368048\\
+1.13333333333333	0.854073782843614\\
+1.17777777777778	0.854222801849074\\
+1.22222222222222	0.854228848024084\\
+1.26666666666667	0.854173368875759\\
+1.31111111111111	0.854033618359287\\
+1.35555555555556	0.8538275805068\\
+1.4	0.853647507884735\\
+};
+\addlegendentry{$c / b\text{ = 2}$}
+
+\addplot [color=mycolor1, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+1.22222222222222	0.854228848024084\\
+};
+\end{axis}
+\end{tikzpicture}%

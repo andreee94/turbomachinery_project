@@ -1,0 +1,246 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.49400,0.18400,0.55600}%
+\definecolor{mycolor3}{rgb}{0.63500,0.07800,0.18400}%
+\definecolor{mycolor4}{rgb}{0.92900,0.69400,0.12500}%
+\definecolor{mycolor5}{rgb}{0.30100,0.74500,0.93300}%
+\definecolor{mycolor6}{rgb}{0.85000,0.32500,0.09800}%
+\definecolor{mycolor7}{rgb}{0.46600,0.67400,0.18800}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=5.496in,
+height=3.735in,
+scale only axis,
+xmin=1,
+xmax=8,
+xlabel style={font=\color{white!15!black}},
+xlabel={Number of stages},
+xtick={1, 2, 3, 4, 5, 6, 7, 8},
+ymin=2.4,
+ymax=3,
+ylabel style={font=\color{white!15!black}},
+ylabel={Effective compression ratio $\beta_{TT}$},
+axis background/.style={fill=white},
+xmajorgrids,
+ymajorgrids,
+legend style={legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot [color=mycolor1, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.50011326076111\\
+2	2.49994178222457\\
+3	2.4999075579393\\
+4	2.49991782543183\\
+5	2.49994638244393\\
+6	2.49997437046413\\
+7	2.499995193503\\
+8	2.50001365400459\\
+};
+\addlegendentry{$b / D_m = 0.025$}
+
+\addplot [color=mycolor1, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+3	2.4999075579393\\
+};
+\addplot [color=mycolor1, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+1	2.50011326076111\\
+};
+\addplot [color=mycolor2, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.50531442026855\\
+2	2.50157598118187\\
+3	2.49932886232786\\
+4	2.49926829506279\\
+5	2.49913888037521\\
+6	2.49894539579818\\
+7	2.49887529841013\\
+8	2.49891428619066\\
+};
+\addlegendentry{$b / D_m = 0.077778$}
+
+\addplot [color=mycolor2, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor2}, forget plot]
+  table[row sep=crcr]{%
+7	2.49887529841013\\
+};
+\addplot [color=mycolor2, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor2}, forget plot]
+  table[row sep=crcr]{%
+1	2.50531442026855\\
+};
+\addplot [color=mycolor3, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.51661424132607\\
+2	2.51226437383256\\
+3	2.5033339465882\\
+4	2.49848513749107\\
+5	2.49778660089001\\
+6	2.49785893708803\\
+7	2.49755133271321\\
+8	2.49712224385026\\
+};
+\addlegendentry{$b / D_m = 0.13056$}
+
+\addplot [color=mycolor3, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor3}, forget plot]
+  table[row sep=crcr]{%
+8	2.49712224385026\\
+};
+\addplot [color=mycolor3, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor3}, forget plot]
+  table[row sep=crcr]{%
+1	2.51661424132607\\
+};
+\addplot [color=mycolor4, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.53363205832642\\
+2	2.53172656018143\\
+3	2.51781115920396\\
+4	2.50420542828731\\
+5	2.49709885998484\\
+6	2.49553569795232\\
+7	2.49570057215829\\
+8	2.49555195934542\\
+};
+\addlegendentry{$b / D_m = 0.18333$}
+
+\addplot [color=mycolor4, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor4}, forget plot]
+  table[row sep=crcr]{%
+6	2.49553569795232\\
+};
+\addplot [color=mycolor4, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor4}, forget plot]
+  table[row sep=crcr]{%
+1	2.53363205832642\\
+};
+\addplot [color=mycolor5, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.55686527932268\\
+2	2.56018879925012\\
+3	2.54312216784026\\
+4	2.52098716145378\\
+5	2.50362354747771\\
+6	2.49481134107824\\
+7	2.49250120736454\\
+8	2.49263951386847\\
+};
+\addlegendentry{$b / D_m = 0.23611$}
+
+\addplot [color=mycolor5, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor5}, forget plot]
+  table[row sep=crcr]{%
+7	2.49250120736454\\
+};
+\addplot [color=mycolor5, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor5}, forget plot]
+  table[row sep=crcr]{%
+2	2.56018879925012\\
+};
+\addplot [color=mycolor6, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.58711524097097\\
+2	2.59935616276203\\
+3	2.58023157486273\\
+4	2.55036761907138\\
+5	2.52158538085522\\
+6	2.50142086829637\\
+7	2.49141627773513\\
+8	2.48857500039676\\
+};
+\addlegendentry{$b / D_m = 0.28889$}
+
+\addplot [color=mycolor6, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor6}, forget plot]
+  table[row sep=crcr]{%
+8	2.48857500039676\\
+};
+\addplot [color=mycolor6, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor6}, forget plot]
+  table[row sep=crcr]{%
+2	2.59935616276203\\
+};
+\addplot [color=mycolor7, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.62590397861328\\
+2	2.652588076232\\
+3	2.63249582391793\\
+4	2.59461111457852\\
+5	2.5536111966595\\
+6	2.51951803926118\\
+7	2.49747477031411\\
+8	2.48678795430046\\
+};
+\addlegendentry{$b / D_m = 0.34167$}
+
+\addplot [color=mycolor7, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor7}, forget plot]
+  table[row sep=crcr]{%
+8	2.48678795430046\\
+};
+\addplot [color=mycolor7, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor7}, forget plot]
+  table[row sep=crcr]{%
+2	2.652588076232\\
+};
+\addplot [color=mycolor1, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.67537422942959\\
+2	2.72483282660167\\
+3	2.70517176158647\\
+4	2.65802387856121\\
+5	2.6031039845983\\
+6	2.5527230436477\\
+7	2.51494830377351\\
+8	2.49183147300704\\
+};
+\addlegendentry{$b / D_m = 0.39444$}
+
+\addplot [color=mycolor1, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+8	2.49183147300704\\
+};
+\addplot [color=mycolor1, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+2	2.72483282660167\\
+};
+\addplot [color=mycolor2, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.73810053593823\\
+2	2.82696048762259\\
+3	2.80952474489023\\
+4	2.75048676221992\\
+5	2.67622854697892\\
+6	2.60568415842212\\
+7	2.54831994423558\\
+8	2.50818176070998\\
+};
+\addlegendentry{$b / D_m = 0.44722$}
+
+\addplot [color=mycolor2, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor2}, forget plot]
+  table[row sep=crcr]{%
+8	2.50818176070998\\
+};
+\addplot [color=mycolor2, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor2}, forget plot]
+  table[row sep=crcr]{%
+2	2.82696048762259\\
+};
+\addplot [color=mycolor3, line width=1.5pt]
+  table[row sep=crcr]{%
+1	2.82011352650108\\
+2	2.97498283522384\\
+3	2.96904333452314\\
+4	2.89002596667331\\
+5	2.78770340994575\\
+6	2.68783599403026\\
+7	2.60384892083555\\
+8	2.54082992930552\\
+};
+\addlegendentry{$b / D_m = 0.5$}
+
+\addplot [color=mycolor3, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor3}, forget plot]
+  table[row sep=crcr]{%
+8	2.54082992930552\\
+};
+\addplot [color=mycolor3, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor3}, forget plot]
+  table[row sep=crcr]{%
+2	2.97498283522384\\
+};
+\end{axis}
+\end{tikzpicture}%

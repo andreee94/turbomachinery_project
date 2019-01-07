@@ -1,0 +1,68 @@
+\ProvidesPackage{myMath}
+
+\usepackage{amsmath}
+\usepackage{cases}
+\usepackage[makeroom]{cancel}
+\usepackage{amsmath,tabu}
+\usepackage[fleqn]{mathtools}
+\usepackage[fleqn]{amsmath}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{microtype}
+\usepackage{array,tabularx}
+\usepackage{float}
+
+
+\newcommand{\atan}[0]{\tan^{-1}}
+
+\ExplSyntaxOn
+  \cs_new_eq:NN \calc \fp_eval:n
+\ExplSyntaxOff
+\newcommand*{\round}[2][]{\num[%
+  round-mode=places,% Round output to specified number of places
+  round-precision=2,% Round-precision is 3
+  output-decimal-marker={.},% Use , as decimal marker
+  #1% Other options
+  ]{\calc{#2}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\pointdatatable}[5]{
+\begin{center}
+\tabulinesep=1.2mm
+\begin{tabu}{|c|c|c|c|}
+\hline
+$ T_{#1} $ & $ p_{#1} $ & $ h_{#1} $ & $ s_{#1} $\\ \hline
+$ \round{#2} \celsius $ & $ \round{#3} \,bar $ & $ \round{#4} \kjkg $ & $ \round[round-precision=4]{#5} \kjkgk $\\ \hline
+\end{tabu}
+\end{center}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\pointdatatablechi}[6]{
+\begin{center}
+\tabulinesep=1.2mm
+\begin{tabu}{|c|c|c|c|c|}
+\hline
+$ T_{#1} $ & $ p_{#1} $ & $ h_{#1} $ & $ s_{#1} $ & $\chi_{#1}$\\ \hline
+$ \round{#2} \celsius $ & $ \round{#3} \,bar $ & $ \round{#4} \kjkg $ & $ \round[round-precision=4]{#5} \kjkgk $ & $\round{#6*100}\perc$ \\ \hline
+\end{tabu}
+\end{center}
+}
+
+\renewcommand{\thesubsection}{\thesection.\Alph{subsection}}
+
+
+%\newenvironment{conditions*}
+%  {\par\vspace{\abovedisplayskip}\noindent
+%   \tabularx{\columnwidth}{>{$}l<{$} @{${}={}$} >{\raggedright \arraybackslash}X}}
+%  {\endtabularx\par\vspace{\belowdisplayskip}}
+\newenvironment{conditions}[1][where:]
+  {#1 \begin{tabular}[t]{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\\[\belowdisplayskip]}
+
+\newenvironment{conditions*}[1][where:]
+  {#1 \par\vspace{\abovedisplayskip}\noindent
+   \tabularx{\columnwidth}{>{$}l<{$} @{${}={}$} >{\raggedright\arraybackslash}X}}
+  {\endtabularx\par\vspace{\belowdisplayskip}}

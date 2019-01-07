@@ -1,0 +1,196 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.92900,0.69400,0.12500}%
+\definecolor{mycolor3}{rgb}{0.46600,0.67400,0.18800}%
+\definecolor{mycolor4}{rgb}{0.63500,0.07800,0.18400}%
+\definecolor{mycolor5}{rgb}{0.85000,0.32500,0.09800}%
+\definecolor{mycolor6}{rgb}{0.49400,0.18400,0.55600}%
+\definecolor{mycolor7}{rgb}{0.30100,0.74500,0.93300}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+legend pos=south east,
+width=8cm,
+height=8cm,
+scale only axis,
+xmin=3000,
+xmax=12000,
+xlabel style={font=\color{white!15!black}},
+xlabel={n},
+ymin=0.84,
+ymax=0.96,
+ytick={ 0.7, 0.71, 0.72, 0.73, 0.74, 0.75, 0.76, 0.77, 0.78, 0.79,  0.8, 0.81, 0.82, 0.83, 0.84, 0.85, 0.86, 0.87, 0.88, 0.89,  0.9, 0.91, 0.92, 0.93, 0.94, 0.95, 0.96, 0.97, 0.98, 0.99,    1},
+ylabel style={font=\color{white!15!black}},
+ylabel={etaTT},
+axis background/.style={fill=white},
+xmajorgrids,
+ymajorgrids,
+legend style={legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot [color=mycolor1, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.848672115972461\\
+4500	0.908571760719616\\
+6000	0.927384691741502\\
+7500	0.931184423333353\\
+9000	0.931310635256085\\
+10500	0.929710668061392\\
+12000	0.926941387468257\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 1}$}
+
+\addplot [color=mycolor1, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+9000	0.931310635256085\\
+};
+\addplot [color=mycolor2, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.855406232121882\\
+4500	0.914476106062361\\
+6000	0.932267792474772\\
+7500	0.935122080345572\\
+9000	0.934552913536706\\
+10500	0.93243902340612\\
+12000	0.929277681511001\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 2}$}
+
+\addplot [color=mycolor2, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor2}, forget plot]
+  table[row sep=crcr]{%
+7500	0.935122080345572\\
+};
+\addplot [color=mycolor3, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.858765578383824\\
+4500	0.917414161479259\\
+6000	0.934688287283767\\
+7500	0.937068466127403\\
+9000	0.936151514717537\\
+10500	0.933782396231215\\
+12000	0.930426547569098\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 3}$}
+
+\addplot [color=mycolor3, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor3}, forget plot]
+  table[row sep=crcr]{%
+7500	0.937068466127403\\
+};
+\addplot [color=mycolor4, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.860945272668124\\
+4500	0.919287961796624\\
+6000	0.936234381160596\\
+7500	0.938309447248924\\
+9000	0.937169719618811\\
+10500	0.934637088646174\\
+12000	0.931156983800052\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 4}$}
+
+\addplot [color=mycolor4, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor4}, forget plot]
+  table[row sep=crcr]{%
+7500	0.938309447248924\\
+};
+\addplot [color=mycolor5, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.862493321124319\\
+4500	0.920633600119821\\
+6000	0.937343531118178\\
+7500	0.939198785300812\\
+9000	0.937899148038163\\
+10500	0.935248724433212\\
+12000	0.931679457471406\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 5}$}
+
+\addplot [color=mycolor5, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor5}, forget plot]
+  table[row sep=crcr]{%
+7500	0.939198785300812\\
+};
+\addplot [color=mycolor6, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.8636838640701\\
+4500	0.921667488844111\\
+6000	0.93819390311411\\
+7500	0.939881117252016\\
+9000	0.938458114490369\\
+10500	0.935717443257546\\
+12000	0.932079711387656\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 6}$}
+
+\addplot [color=mycolor6, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor6}, forget plot]
+  table[row sep=crcr]{%
+7500	0.939881117252016\\
+};
+\addplot [color=mycolor7, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.864640886088268\\
+4500	0.922497959002117\\
+6000	0.938878662340121\\
+7500	0.940428467823433\\
+9000	0.938906348785661\\
+10500	0.936093176584589\\
+12000	0.932400476292413\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 7}$}
+
+\addplot [color=mycolor7, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor7}, forget plot]
+  table[row sep=crcr]{%
+7500	0.940428467823433\\
+};
+\addplot [color=mycolor1, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.865434724558692\\
+4500	0.923186400955221\\
+6000	0.939445068259314\\
+7500	0.940881317988053\\
+9000	0.939277116079509\\
+10500	0.936404135504057\\
+12000	0.932665885253853\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 8}$}
+
+\addplot [color=mycolor1, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor1}, forget plot]
+  table[row sep=crcr]{%
+7500	0.940881317988053\\
+};
+\addplot [color=mycolor2, line width=1.5pt]
+  table[row sep=crcr]{%
+4500	0.923770704208486\\
+6000	0.939925599146387\\
+7500	0.941265181145774\\
+9000	0.939594106732057\\
+10500	0.93666769027075\\
+12000	0.932890792785127\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 9}$}
+
+\addplot [color=mycolor2, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor2}, forget plot]
+  table[row sep=crcr]{%
+7500	0.941265181145774\\
+};
+\addplot [color=mycolor3, line width=1.5pt]
+  table[row sep=crcr]{%
+3000	0.866771898203183\\
+4500	0.924275765725785\\
+6000	0.940340816210796\\
+7500	0.941597230992121\\
+9000	0.939865777753913\\
+10500	0.936895231245835\\
+12000	0.933084937378424\\
+};
+\addlegendentry{$\text{seals}_\text{n}\text{um = 10}$}
+
+\addplot [color=mycolor3, line width=2.0pt, only marks, mark=o, mark options={solid, mycolor3}, forget plot]
+  table[row sep=crcr]{%
+7500	0.941597230992121\\
+};
+\end{axis}
+\end{tikzpicture}%

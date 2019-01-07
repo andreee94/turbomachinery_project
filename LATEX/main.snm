@@ -1,0 +1,13 @@
+\beamer@slide {eq:mdot_U}{10}
+\beamer@slide {fig:velocitytriangle_example}{12}
+\beamer@slide {eq:stator_loss}{14}
+\beamer@slide {eq:rotor_loss}{14}
+\beamer@slide {eq:stator_solution}{15}
+\beamer@slide {eq:rotor_solution}{16}
+\beamer@slide {eq:radial_eq}{18}
+\beamer@slide {eq:mass_flow_rate_integral}{20}
+\beamer@slide {fig:profile_losses}{30}
+\beamer@slide {eq:solidity_from_nblades}{32}
+\beamer@slide {eq:coef_losses}{33}
+\beamer@slide {fig:ainley_loading}{39}
+\beamer@slide {eq:alpha_flow_from_geometrical}{52}

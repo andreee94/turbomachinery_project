@@ -1,0 +1,43 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.85000,0.32500,0.09800}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+legend pos=south east,
+width=8cm,
+height=8cm,
+scale only axis,
+unbounded coords=jump,
+xmin=6.9568090871033,
+xmax=6.98808322474978,
+xlabel style={font=\color{white!15!black}},
+xlabel={Entropy $s$},
+ymin=798.73282673455,
+ymax=971.877650349171,
+ylabel style={font=\color{white!15!black}},
+ylabel={Temperature $T(K)$},
+axis background/.style={fill=white},
+xmajorgrids,
+ymajorgrids
+]
+\addplot [color=mycolor1, line width=1.5pt, forget plot]
+  table[row sep=crcr]{%
+6.95758604946781	968.229186555305\\
+6.96033787089438	946.020195443286\\
+6.96480809312818	926.829092106859\\
+6.96755130629599	904.88493542102\\
+6.97190595668298	885.594912740775\\
+6.97476080604764	863.500853593526\\
+6.97902545689693	844.100647642305\\
+6.98199995550065	821.847167336668\\
+6.98620612553243	802.324582881736\\
+};
+\end{axis}
+\end{tikzpicture}%

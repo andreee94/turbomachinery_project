@@ -1,0 +1,158 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+\definecolor{mycolor2}{rgb}{0.85000,0.32500,0.09800}%
+\definecolor{mycolor3}{rgb}{0.92900,0.69400,0.12500}%
+\definecolor{mycolor4}{rgb}{0.49400,0.18400,0.55600}%
+\definecolor{mycolor5}{rgb}{0.46600,0.67400,0.18800}%
+\definecolor{mycolor6}{rgb}{0.30100,0.74500,0.93300}%
+\definecolor{mycolor7}{rgb}{0.63500,0.07800,0.18400}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=5.871in,
+height=3.566in,
+at={(0.985in,0.481in)},
+scale only axis,
+xmin=1,
+xmax=10,
+xlabel style={font=\color{white!15!black}},
+xlabel={Gauss Points},
+ymin=0.99982,
+ymax=1,
+ylabel style={font=\color{white!15!black}},
+ylabel={Sum of blade heights of all stages (normalized)},
+y label style={at={(axis description cs:-0.02,.5)},rotate=0,anchor=south},
+yticklabel style={/pgf/number format/.cd,fixed,precision=5},
+axis background/.style={fill=white},
+xmajorgrids,
+ymajorgrids,
+legend style={legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot [color=mycolor1]
+  table[row sep=crcr]{%
+1	1\\
+2	0.999948742402713\\
+3	0.9999487302122\\
+4	0.999948730206181\\
+5	0.999948730206177\\
+6	0.999948730206178\\
+7	0.999948730206178\\
+8	0.999948730206179\\
+9	0.999948730206177\\
+10	0.999948730206178\\
+};
+\addlegendentry{Number of stages = 1}
+
+\addplot [color=mycolor2]
+  table[row sep=crcr]{%
+1	1\\
+2	0.999882953995288\\
+3	0.999882891757553\\
+4	0.999882891699782\\
+5	0.999882891699714\\
+6	0.999882891699716\\
+7	0.999882891699715\\
+8	0.999882891699716\\
+9	0.999882891699715\\
+10	0.999882891699715\\
+};
+\addlegendentry{Number of stages = 2}
+
+\addplot [color=mycolor3]
+  table[row sep=crcr]{%
+1	1\\
+2	0.999944641476677\\
+3	0.999944619993204\\
+4	0.999944619974965\\
+5	0.999944619974943\\
+6	0.999944619974944\\
+7	0.999944619974944\\
+8	0.999944619974945\\
+9	0.999944619974944\\
+10	0.999944619974944\\
+};
+\addlegendentry{Number of stages = 3}
+
+\addplot [color=mycolor4]
+  table[row sep=crcr]{%
+1	1\\
+2	0.999932864532613\\
+3	0.999932838660685\\
+4	0.999932838639356\\
+5	0.99993283863932\\
+6	0.99993283863932\\
+7	0.99993283863932\\
+8	0.999932838639321\\
+9	0.999932838639333\\
+10	0.99993283863932\\
+};
+\addlegendentry{Number of stages = 4}
+
+\addplot [color=mycolor5]
+  table[row sep=crcr]{%
+1	1\\
+2	0.99989388648919\\
+3	0.999893831934972\\
+4	0.999893831880469\\
+5	0.999893831880382\\
+6	0.99989383188038\\
+7	0.99989383188038\\
+8	0.999893831880381\\
+9	0.99989383188038\\
+10	0.99989383188038\\
+};
+\addlegendentry{Number of stages = 5}
+
+\addplot [color=mycolor6]
+  table[row sep=crcr]{%
+1	1\\
+2	0.999861685092472\\
+3	0.999861608303589\\
+4	0.999861608224278\\
+5	0.999861608224151\\
+6	0.999861608224149\\
+7	0.999861608224149\\
+8	0.999861608224149\\
+9	0.999861608224149\\
+10	0.999861608224148\\
+};
+\addlegendentry{Number of stages = 6}
+
+\addplot [color=mycolor7]
+  table[row sep=crcr]{%
+1	1\\
+2	0.999838830186442\\
+3	0.999838738850587\\
+4	0.999838738756061\\
+5	0.999838738755915\\
+6	0.999838738755914\\
+7	0.999838738755915\\
+8	0.999838738755915\\
+9	0.999838738755915\\
+10	0.999838738755914\\
+};
+\addlegendentry{Number of stages = 7}
+
+\addplot [color=mycolor1]
+  table[row sep=crcr]{%
+1	1\\
+2	0.999822676255755\\
+3	0.999822575281029\\
+4	0.999822575176761\\
+5	0.999822575176602\\
+6	0.999822575176602\\
+7	0.999822575176602\\
+8	0.999822575176602\\
+9	0.999822575176602\\
+10	0.999822575176601\\
+};
+\addlegendentry{Number of stages = 8}
+
+\end{axis}
+\end{tikzpicture}%
